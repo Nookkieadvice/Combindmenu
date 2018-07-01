@@ -3,8 +3,16 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import {TabsPage} from '../pages/tabs/tabs';
+import {TabHomePage} from '../pages/tab-home/tab-home';
+import {TabCoursePage} from '../pages/tab-course/tab-course';
+import {TabServicePage} from '../pages/tab-service/tab-service';
+import {TabActiclePage} from '../pages/tab-acticle/tab-acticle';
+import {TabContactPage} from '../pages/tab-contact/tab-contact';
+import {SidePaymentPage} from '../pages/side-payment/side-payment';
+import {SidePortfolioPage} from '../pages/side-portfolio/side-portfolio';
+import {SideSchedulePage} from '../pages/side-schedule/side-schedule';
+import {SideSettingPage} from '../pages/side-setting/side-setting';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -12,8 +20,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage
+    TabsPage,
+    TabHomePage,
+    TabCoursePage,
+    TabServicePage,
+    TabActiclePage,
+    TabContactPage,
+    SidePaymentPage,
+    SidePortfolioPage,
+    SideSchedulePage,
+    SideSettingPage
   ],
   imports: [
     BrowserModule,
@@ -22,8 +38,17 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage
+    TabsPage,
+    TabHomePage,
+    TabCoursePage,
+    TabServicePage,
+    TabActiclePage,
+    TabContactPage,
+    SidePaymentPage,
+    SidePortfolioPage,
+    SideSchedulePage,
+    SideSettingPage
+
   ],
   providers: [
     StatusBar,
