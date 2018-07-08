@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "304994808227",
+    "firebase_url": "https://combindapppush-nook.firebaseio.com",
+    "project_id": "combindapppush-nook",
+    "storage_bucket": "combindapppush-nook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304994808227:android:14428a1ddcd2e56d",
+        "android_client_info": {
+          "package_name": "com.thamakorn.combindapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304994808227-41kjllohrqg2mi7tv0lk31lfm4d0tall.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgSuFPltZAtXpZhetATdnh_eWt_ZRP7oY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

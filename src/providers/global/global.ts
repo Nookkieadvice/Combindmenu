@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 export class GlobalProvider {
 
   //Global Variable
-  public baseURLAPI:string = "http://10.1.19.24/combindrestapi/";
+  public baseURLAPI:string = "http://localhost/combindrestapi/";
   public authKey:string = "Basic YWRtaW46MTIzNDU2";
   public contentType:string = "application/json"; 
 }
